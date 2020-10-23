@@ -105,7 +105,7 @@ nav ul ul a{padding-left: 40px ;}
 [id^=btn]:checked + ul{display: block;}
 
 .header-box{padding-top:10vh;justify-content:flex-start;align-items: center}
-.header-box, .p2-box{flex-direction: column;}
+.header-box, .p2-box, .p6-box{flex-direction: column;}
 .header-box img, .p2 img{height: 40vh;}
 .header-item h2{font-size: 1.8em;text-align: center;}
 .header-item h4, .p2-item h4{font-size: .8em;}
@@ -116,5 +116,6 @@ nav ul ul a{padding-left: 40px ;}
 .p2-box{align-items: center;}
 .p2-item p{width: 100%;}
 
+form{width: 80%;align-items: center;}
 
 }
