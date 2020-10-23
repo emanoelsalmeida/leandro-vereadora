@@ -95,17 +95,18 @@ footer p a{color:#ffffff ;text-decoration: none;text-align: center;}
 .projeto-item h5{color: white;}
 .projeto-item ol li{color: white;width: 80%; font-size: .8em;margin: 1vh 0;}
 .projeto-item ol li b{color: #f7bd05; ;}
+
 .formulario{display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 10vh 0;}
 .formulario h3{width: 60%;text-align: center;color: #0a4997;}
 
 @media screen and (max-width:900px){
 nav ul{float: left;margin-right: 0px;}
-nav ul li{ background-color:#0a4997 ;}
+nav ul li{ background-color:#ffffff ;}
 nav ul li, nav ul ul li{display: block;width: 100%;}
-nav ul li a{color: white;}
+nav ul li a{color: #0a4997;}
 nav ul ul{top: 70px;position: static;float: none;opacity: 1;visibility: visible;}
 nav ul ul a{padding-left: 40px ;}
-.show{display: block;color: #ffffff;font-size: .8em;padding:  0 20px;line-height: 70px;cursor: pointer;}
+.show{display: block;color: #0a4997;font-size: .8em;padding:  0 20px;line-height: 70px;cursor: pointer;}
 .icon{display: block;position: absolute;right: 40px;line-height: 70px;font-size: 1.5em;cursor: pointer;z-index: 1;padding-right:2vw ;}
 .icon > .fa-bars{color: white;background:#0a4997 ;}
 .icon::before > .fa-bars{color:  #0a4997;}
@@ -119,7 +120,7 @@ nav ul ul a{padding-left: 40px ;}
 .header-item h4, .p2-item h4{font-size: .8em;}
 .header-item h1, .p2-item h1{font-size: 1.8em;}
 
-.p1-box{grid-template-columns: 90%;}
+.p1-box, .projeto-box{grid-template-columns: 90%;}
 .p1-item img{width: 10vh;}
 .p2-box{align-items: center;}
 .p2-item p{width: 100%;}
