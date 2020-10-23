@@ -79,7 +79,7 @@ form .input-fields{display: flex;flex-direction: column;margin-right: 4%;justify
 .msg textarea{height: 20vh;width: 100%;}
 
 .p6{background-color: #0a4997;}
-.p6-box{display: flex;justify-content: center;align-items: center;height: 40vh;}
+.p6-box{display: flex;justify-content: center;align-items: center;padding: 10vh 0;}
 .p6-item{margin: 0 4vw;}
 .p6-item img{width: 2vw;margin: 0 2vw;}
 .p6-item h5, .p6-item p{color:#ffffff; font-size: 1em;margin: 2vh 0;font-weight: 400;}
