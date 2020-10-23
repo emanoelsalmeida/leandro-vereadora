@@ -24,18 +24,86 @@
            </label>
            <input type="checkbox" id="btn">         
              <ul>
-                   <li><a href="#">Home</a></li>
+                   <li><a href="index.html">Home</a></li>
                    <li>
                     <label for="btn-1" class="show">Projetos</label>                   
-                    <a href="#">Projetos</a>
+                    <a href="#projetos">Projetos</a>
                     <input type="checkbox" id="btn-1">
                        <ul>
-                           <li><a href="#">Saúde</a></li>
-                           <li><a href="#">Ambiental</a></li>
-                       </ul>
+                           <li><a href="projetos/saude.html">Saúde</a></li>     
+                           <li><a href="projetos/protecao-mulher.html">Proteção da Mulher</a></li>
+                           
+                            <li>
+                                <a href="projetos/habitacao.html">
+                                    Habitação
+                                  </a>
+                            </li>
+                            <li>
+                                <a href="projetos/educacao.html">
+
+                                Educação
+                                </a>
+                            </li>                           
+                            <li>
+                                <a href="projetos/acoes-social.html">
+
+                                    Acões Social
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a href="projetos/idosos.html">
+
+                                    Idosos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="projetos/qualificacao-profissinal.html">
+                                    Qualificação Pro...
+                                </a>
+                            </li>
+                            <li>
+                                <a href="projetos/juventude.html">Juventude</a>
+                            </li>
+                            <li>
+                                <a href="projetos/empreendorismo.html">
+
+                                    Empreendorismo
+                                 </a>
+                            </li>
+                            <li>
+                                <a href="projetos/protecao-animais.html">
+                                    Proteção dos ani...
+                                 </a>
+                          </li>   
+                          <li>
+                            <a href="projetos/defieciencia.html">
+                                Pessoas com def...
+                            </a>
+                        </li>                         
+                            <li>
+                                <a href="projetos/emprego-renda.html">
+
+                                    Emprego e Renda
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="projetos/protecao-ambiental.html">
+
+                                    Meio ambiente
+                                 </a>
+                            </li>
+                            <li>
+                                <a href="projetos/comercio-forte.html">
+                                    Comercio Forte
+                                 </a>
+                            </li>
+                            
+                          
+                        </ul>
                    </li>
-                   <li><a href="#">Quem Sou</a></li>
-                   <li><a href="#">Contato</a></li>
+                   <li><a href="#about">Quem Sou</a></li>
+                   <li><a href="Contato">Contato</a></li>
    
                </ul>
             </nav>
@@ -56,7 +124,7 @@
        </div> 
     </header>
     <main>
-        <div class="p1">
+        <div id="projetos" class="p1">
            <div class="left">
 
                <h1>
@@ -79,12 +147,12 @@
                 <div class="p1-item">
                     <img src="images/woman.svg" alt="">
                     <h4>
-                        <a href="projetos/proteção-mulher.html">
+                        <a href="projetos/protecao-mulher.html">
 
                             proteção da mulher
                         </a>
                     </h4>
-                    <a href="projetos/proteção-mulher.html">Ver Mais</a>
+                    <a href="projetos/protecao-mulher.html">Ver Mais</a>
 
                 </div>
                 <div class="p1-item">
@@ -100,11 +168,11 @@
                 <div class="p1-item">
                     <img src="images/dog.svg" alt="">
                     <h4>
-                        <a href="projetos/proteção-animais.html">
+                        <a href="projetos/protecao-animais.html">
                            proteção dos animais
                         </a>
                     </h4>
-                    <a href="projetos/proteção-animais.html">Ver Mais</a>
+                    <a href="projetos/protecao-animais.html">Ver Mais</a>
                 </div>
 
                 <div class="p1-item">
@@ -210,7 +278,7 @@
                 <div class="p1-item"></div>
             </div>
         </div>
-        <div class="p2">           
+        <div id="about" class="p2">           
             <div class="p2-box">             
                 <div class="p2-item">
                     <h4>Quem Sou</h4>
@@ -259,20 +327,14 @@
 
         </div>
         <div class="p4">
-            <div class="p4-item">
-                <img src="" alt="">
-            </div>
-            <div class="p4-item">
-
-            </div>
             <h3>
                 Se Inscreva-se no formulário abaixo e receba todas as propostas pelo whastapp
             </h3>
         </div>
-        <div class="p5">
+        <div id="contato" class="p5">
             <div class="p5-box">
 
-                <form method="POST" action="./email.php" class="decor">
+                <form method="POST" action="./email.php">
     
                     <div class="input-fields">
                         <input type="text" name="name" placeholder="Nome">
@@ -280,15 +342,12 @@
                         <input type="text" name="phone" placeholder="Telefone com DDD">
                         <div class="msg">
                             <textarea name="message" placeholder="Messagem"></textarea>
-                        </div>
-                       <div class="push">
-
-                           <input  type="submit" value="Enviar">
-                       </div>
+                        </div>                   
+                           <input  type="submit" value="Enviar">                    
                     </div>
                 </form>
             </div>
-        </div>       
+        </div>   
         <div class="p6">
             <div class="p6-box">
                 <div class="p6-item">
