@@ -45,24 +45,25 @@ label #sign-one,  label #sign-two{font-size: 1em; background-color: #0a4997;floa
 .header-item:nth-child(3){color:#f7bd05;}
 .header-item:nth-child(3) h4{font-weight: 700;text-align: center;}
 
-.p1 h1{font-size: 1.3em;margin-top:4vh;width: 80vw;color:#0a4997;font-style: italic;font-weight: 600;}
-.p1 .line{width: 80vw;height: 1vh;background-color:#0a4997;}
+.p1 h1{font-size: 1.3em;padding-top:4vh;width: 80vw;color: #ffffff;font-style: italic;font-weight: 600;}
+.p1 .line{width: 80vw;height: 1vh;background-color: #ffffff;}
 .p1 .left{display: block;margin: 0 auto;width: 80vw;margin-bottom: 10vh;}
-.p1-box{display: grid;grid-template-columns: 25% 25% 25%;grid-gap: 30px;justify-content: center;align-items: center;padding-bottom:10vh ;}
+.p1-box{display: grid;grid-template-columns: 25% 25% 25%;grid-gap: 30px;justify-content: center;align-items: center;padding-bottom:5vh ;}
 .p1-item{display: flex;flex-direction: column;align-items: center;}
 .p1-item{background-color: #f1f1f1;}
 .p1-item img{width: 8vw;margin-top: 2vh;}
 .p1 a{text-decoration: none; color:#0a4997;text-transform: uppercase;text-align: center;font-size: .7em;margin-bottom: 7vh;;}
 .p1 h4{margin: 3vh 0;}
-.p1 h4 a{font-size: .8em;color:#f7bd05;}
+.p1 h4 a{font-size: .8em;color:#ec8110;}
 
-.p2, .p4{background-color:#0a4997;}
+.p2, .p1,.p4{background-color:#0a4997;}
+.p2{background-color: #f1f1f1;}
 .p2-box{display: flex;justify-content: center;align-items: flex-end;margin: 0 8vw;}
 .p2-item img{height: 90vh;}
-.p2-item p{font-size: .8em;width: 60%;text-align: justify;margin: 2vh 0;color: #ffffff;font-weight: 300;}
-.p2-item h1{color:#ffffff;margin-bottom: 8vh;font-size: 2.5em;}
+.p2-item p{font-size: .8em;width: 60%;text-align: justify;margin: 2vh 0;color: #0a4997;font-weight: 400;}
+.p2-item h1{color:#0a4997;margin-bottom: 8vh;font-size: 2.5em;}
 .p2-item h1 b{color: #f7bd05;}
-.p2-item h4{color: #ffffff;margin: 3vh 0;font-style: italic;font-weight: 600;font-size: 1.2em;}
+.p2-item h4{color:#0a4997;margin: 3vh 0;font-style: italic;font-weight: 600;font-size: 1.2em;}
 
 .p3{background-color: #ffffff;height: 20vh;}
 
