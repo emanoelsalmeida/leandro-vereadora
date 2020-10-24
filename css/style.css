@@ -56,11 +56,13 @@ label #sign-one,  label #sign-two{font-size: 1em; background-color: #0a4997;floa
 .p1 h4{margin: 3vh 0;}
 .p1 h4 a{font-size: .8em;color:#ec8110;}
 
+
+
 .p2, .p1,.p4{background-color:#0a4997;}
 .p2{background-color: #f1f1f1;}
-.p2-box{display: flex;justify-content: center;align-items: flex-end;margin: 0 8vw;}
-.p2-item img{height: 90vh;}
-.p2-item p{font-size: .8em;width: 60%;text-align: justify;margin: 2vh 0;color: #0a4997;font-weight: 400;}
+.p2-box{display: flex;justify-content: center;align-items: flex-end;margin: 0 8vw;margin-bottom:-.8vh ;}
+.p2-item img{width: 30vw;}
+.p2-item p{font-size: .8em;width: 70%;text-align: justify;margin-bottom:2vh ;color: #0a4997;font-weight: 400;}
 .p2-item h1{color:#0a4997;margin-bottom: 8vh;font-size: 2.5em;}
 .p2-item h1 b{color: #f7bd05;}
 .p2-item h4{color:#0a4997;margin: 3vh 0;font-style: italic;font-weight: 600;font-size: 1.2em;}
