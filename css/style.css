@@ -67,7 +67,11 @@ label #sign-one,  label #sign-two{font-size: 1em; background-color: #0a4997;floa
 .p2-item h1 b{color: #f7bd05;}
 .p2-item h4{color:#0a4997;margin: 3vh 0;font-style: italic;font-weight: 600;font-size: 1.2em;}
 
-.p3{background-color: #ffffff;height: 20vh;}
+.p3{background-color: #ffffff;}
+.p3-box{display: flex;flex-direction: column;justify-content:center;align-items: center;}
+.p3-item iframe{height: 50vh;width: 50vw;display: block;margin: 3vh auto;}
+.p3 h1{text-align: center;color: #0a4997;padding: 5vh 0;}
+.p3 h3{text-align: center;color: #0a4997;}
 
 .p4{background-color: #ffffff;}
 .p4{display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 10vh 0;}
@@ -131,6 +135,8 @@ nav ul ul a{padding-left: 40px ;}
 .p2-box{align-items: center;}
 .p2-item p{width: 100%;}
 .p2-item img{width: 40vw;height: auto;}
+
+.p3-item iframe{width: 90vw;height: 25vh;}
 
 .p6-box{align-items: flex-start;margin: 0 2vw;}
 .p6-item img{width: 10vw;}
