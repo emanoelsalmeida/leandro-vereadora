@@ -92,9 +92,7 @@ form .input-fields{display: flex;flex-direction: column;margin-right: 4%;justify
 .p6-item p{color:#f1f1f1;}
 
 footer{background-color: #074083;}
-footer p{text-align: center;padding: 15px 0;
-}
-footer p a{color:#ffffff ;text-decoration: none;text-align: center;}
+footer p {color:#ffffff ;text-decoration: none;text-align: center;padding: 2vh 0; font-size: .5em;}
 
 .projeto-box{display:grid;grid-template-columns: 40% 50%;justify-content: center;align-items: center;background-color: #074083;padding: 20vh 0;padding-bottom: 10vh;}
 .projeto-item h1{color: white;padding: 3vh 0; font-size:1.5em ;}
