@@ -67,7 +67,7 @@ label #sign-one,  label #sign-two{font-size: 1em; background-color: #0a4997;floa
 .p2-item h1 b{color: #f7bd05;}
 .p2-item h4{color:#0a4997;margin: 3vh 0;font-style: italic;font-weight: 600;font-size: 1.2em;}
 
-.p3{background-color: #ffffff;}
+.p3{background-color: #f1f1f1;;}
 .p3-box{display: flex;flex-direction: column;justify-content:center;align-items: center;}
 .p3-item iframe{height: 50vh;width: 50vw;display: block;margin: 3vh auto;}
 .p3 h1{text-align: center;color: #0a4997;padding: 5vh 0;}
