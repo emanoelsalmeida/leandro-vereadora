@@ -69,8 +69,9 @@ label #sign-one,  label #sign-two{font-size: 1em; background-color: #0a4997;floa
 
 .p3{background-color: #ffffff;height: 20vh;}
 
+.p4{background-color: #ffffff;}
 .p4{display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 10vh 0;}
-.p4 h3{width: 60%;text-align: center;color: #ffffff;}
+.p4 h3{width: 60%;text-align: center;color: #0a4997;}
 
 
 
@@ -117,6 +118,7 @@ nav ul ul a{padding-left: 40px ;}
 .icon::before > .fa-bars{color:  #0a4997;}
 .show + a,ul{display: none;}
 [id^=btn]:checked + ul{display: block;}
+.box-header img{display: none;}
 
 .header-box{padding-top:10vh;justify-content:flex-start;align-items: center}
 .header-box, .p2-box, .p6-box{flex-direction: column;}
@@ -127,8 +129,10 @@ nav ul ul a{padding-left: 40px ;}
 
 .p1-box, .projeto-box{grid-template-columns: 90%;}
 .p1-item img{width: 10vh;}
+
 .p2-box{align-items: center;}
 .p2-item p{width: 100%;}
+.p2-item img{width: 40vw;height: auto;}
 
 .p6-box{align-items: flex-start;margin: 0 2vw;}
 .p6-item img{width: 10vw;}
